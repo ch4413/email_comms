@@ -1,0 +1,37 @@
+
+Summary of Study
+====================
+
+A study was conducted to examine the effect of e-mail communications over time.
+
+An experiment was constructed to determine whether the effect of a particular type of
+e-mail send would improve e-mail open rates.
+
+Each person in the study received 10 e-mail communications over the course of a
+month. The experiment was constructed in order to determine whether an incentive
+structure could improve open rates. In the experimental condition, the authors
+had increased the reward structure each time that an e-mail was sent (regardless 
+of whether the e-mail was opened). Therefore, we hypothesize that there 
+would be an increase in open rates at each e-mail send. The control group did 
+not receive a reward.
+
+
+Goals: 
+       1: Build a model that best explains likelihood to open.  
+       2: Test the hypothesis that for each e-mail send for the experimental group,
+          there should be an increase in e-mail opens.
+
+
+
+
+## Variables
+# Id:        Customer ID
+# Male:      Male = 1; Female = 0
+# Age:       mean centered
+# gmail:     Whether or not customer is using a gmail account
+# Comm:      The e-mail communication number (defines the order in which the e-mail was sent)
+# hr_source: hand raiser source. i.e., where the customer handraised: 0 = web, 1 = movie theater, 2 = trade show
+# prev_cust: whether or not the person had previously purchased from vendor.
+# married:   whether or nor the person is married.
+# children:  whether or not the person has children. 
+# y1:        whether or not the customer opened the e-mail.
